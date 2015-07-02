@@ -1,11 +1,42 @@
-    <!-- Download Section -->
-    <section id="projects" class="content-section text-center">
-        <div class="projects-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Projects</h2>
-                    {{ content }}
-                </div>
-            </div>
+<!-- Project Section -->
+<section id="projects" class="content-section text-center">
+  <div class="projects-section">
+    <div class="container">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Projects</h2>
+        <div class="home">
+          <ul class="post-list">
+            <li>
+              <h2>
+                <a class="post-link" href="https://audilogue.herokuapp.com" target="_blank">Audilogue</a>
+              </h2>
+              <a class="post-link" href="https://audilogue.herokuapp.com" target="_blank">
+                <img class="audilogue" src="/img/audilogue_sounds_close.png" alt="Audilogue Sounds Page"/>
+              </a>
+            </li>
+            <li>
+              <h2>
+                <a class="post-link" href="https://github.com/erlandsona/Slipabeat" target="_blank">Slipabeat</a>
+              </h2>
+              <a class="post-link" href="https://github.com/erlandsona/Slipabeat" target="_blank">
+                <img class="slipabeat" src="/img/slipabeat.png" alt="Slipabeat Github Page"/>
+              </a>
+            </li>
+            <li>
+              <h2>
+                <a class="post-link" href="#">Serial Parser/Visualization</a>
+              </h2>
+              <img class="visualizer" src="/img/midi_serial_parser.png" alt="Midi Serial Parser"/>
+            </li>
+          </ul>
+          <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
         </div>
-    </section>
+        <!-- <div class="page-content"> -->
+        <!--   <div class="wrapper"> -->
+        <!--     {{ content }} -->
+        <!--   </div> -->
+        <!-- </div> -->
+      </div>
+    </div>
+  </div>
+</section>
